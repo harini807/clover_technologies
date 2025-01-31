@@ -1,0 +1,18 @@
+<div *ngIf="items && items.length; else noData">
+    <h2>{{ type | titlecase }}</h2>
+    <div class="row">
+      <div *ngFor="let item of items" class="col-md-4 mb-4">
+        <div class="card">
+          <img [src]="item.image" class="card-img-top" [alt]="item.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noData>
+    <p>No data available for this type.</p>
+  </ng-template>
+  

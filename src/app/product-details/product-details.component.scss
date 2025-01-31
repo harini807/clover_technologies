@@ -1,0 +1,141 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  .background-image{
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #dad4d4;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(250, 248, 248, 0.1) !important;
+}
+.img-row {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: center;
+    
+}
+
+ul {
+    list-style:none;
+}
+
+.list-unstyled li {
+    font-size: 1rem;
+    color: #dad4d4;
+    margin-bottom: 0.5rem;
+}
+
+.list-unstyled li i {
+    margin-right: 10px;
+    color: #dad4d4; 
+}
+
+.text-primary {
+    color: #dad4d4; /* Primary color */
+}
+
+.text-muted {
+    color: #dad4d4 !important; /* Muted text color */
+}
+
+.text-primary {
+    color: #dad4d4 !important;
+}
+
+.text-info {
+    color: #17a2b8; /* Info color */
+}
+
+.bi {
+    font-size: 1.2rem;
+}
+
+.mt-4 {
+    color: #dad4d4; 
+}
+.custom-btn {
+    min-width: 180px;  /* Ensure the button fits the content with some padding */
+    padding: 12px 30px;  /* Add padding to the button */
+    font-size: 1.1rem;  /* Slightly increase font size */
+    font-weight: 600;  /* Make the text bold */
+    border-radius: 25px;  /* Rounded corners */
+    border-color: #006400;
+    background-color: #006400;  /* Dark green background color */
+    color: white;  /* White text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for better look */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.custom-btn:hover {
+    border-color: #006400;
+    background-color: #004d00;  /* Darker green shade when hovered */
+    transform: translateY(-3px);  /* Slightly lift the button on hover */
+}
+
+/* Focus state */
+.custom-btn:focus {
+    outline: none;  /* Remove the outline on focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);  /* Focus border effect */
+}
+
+/* Active state */
+.custom-btn:active {
+    background-color: #003300;  /* Even darker green when clicked */
+    transform: translateY(2px);  /* Button slightly pushed down when clicked */
+}
+
+/* Adjust for responsiveness */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-12 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-row{
+        margin-top: 40px !important;
+    }
+}
+
+
+.mb-5{
+    margin-bottom: 3rem !important;
+}
+
+
+

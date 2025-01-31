@@ -1,0 +1,738 @@
+export const productData = {
+  aidc: {
+    'barcode-scanners': [
+      {
+        id: 1,
+        name: '8675i',
+        imageUrl: '../assets/Barcode-scanners/8675i.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 2,
+        name: '8680i Wearable Mini Mobile Computer',
+        imageUrl:
+          '../assets/Barcode-scanners/8680i-wearable-mini-mobile-computer.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 3,
+        name: 'Fusion 3780 Handheld/Hands-Free Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/fusion-3780-handheld-hands-free-scanner.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 4,
+        name: 'Genesis 7580g Hands-Free Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/genesis-7580g-hands-free-scanner.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 5,
+        name: 'Genesis XP 7680g',
+        imageUrl: '../assets/Barcode-scanners/genesis-xp-7680g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 6,
+        name: 'Granit 1280i Industrial, Full-Range Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/granit-1280i-industrial-full-range-scanner.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 7,
+        name: 'Granit 1920i Industrial DPM Area-Imaging Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/granit-1920i-industrial-dpm-area-imaging-scanner.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 8,
+        name: 'Granit 1980i Industrial, Full-Range Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/granit-1980i-industrial-full-range-scanner.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 9,
+        name: 'Granit 1981i Industrial, Full-Range Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/granit-1981i-industrial-full-range-scanner.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 10,
+        name: 'Voyager 1200g',
+        imageUrl: '../assets/Barcode-scanners/voyager-1200g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 11,
+        name: 'Voyager 1250g',
+        imageUrl: '../assets/Barcode-scanners/voyager-1250g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 12,
+        name: 'Voyager XP 1470g',
+        imageUrl: '../assets/Barcode-scanners/voyager-xp-1470g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 13,
+        name: 'Hyperion 1300g',
+        imageUrl: '../assets/Barcode-scanners/hyperion-1300g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 14,
+        name: 'Orbit 7120',
+        imageUrl: '../assets/Barcode-scanners/orbit-7120.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 15,
+        name: 'Orbit 7190g',
+        imageUrl: '../assets/Barcode-scanners/orbit-7190g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 16,
+        name: 'Xenon XP 1950g',
+        imageUrl: '../assets/Barcode-scanners/xenon-xp-1950g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 17,
+        name: 'Granit 1910i Industrial Scanner',
+        imageUrl:
+          '../assets/Barcode-scanners/granit-1910i-industrial-scanner.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 18,
+        name: 'Granit XP 1990i',
+        imageUrl: '../assets/Barcode-scanners/granit-xp-1990i.jfif',
+        brand: ['Honeywell'],
+      },
+
+      {
+        id: 20,
+        name: 'QuantumT 3580',
+        imageUrl: '../assets/Barcode-scanners/quantumt-3580.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 21,
+        name: 'Eclipse 5145',
+        imageUrl: '../assets/Barcode-scanners/eclipse-5145.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 22,
+        name: 'Vuquest 3320g',
+        imageUrl: '../assets/Barcode-scanners/vuquest-3320g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 23,
+        name: 'Vuquest 3330g',
+        imageUrl: '../assets/Barcode-scanners/vuquest-3330g.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 24,
+        name: 'Vuquest 3450g',
+        imageUrl: '../assets/Barcode-scanners/vuquest-3450g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 25,
+        name: 'MS3780 Fusion',
+        imageUrl: '../assets/Barcode-scanners/ms3780-fusion.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 26,
+        name: 'MS7120 Orbit',
+        imageUrl: '../assets/Barcode-scanners/ms7120-orbit.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 27,
+        name: 'MS9590 VoyagerGS',
+        imageUrl: '../assets/Barcode-scanners/ms9590-voyagergs.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 28,
+        name: 'MS1690 Focus',
+        imageUrl: '../assets/Barcode-scanners/ms1690-focus.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 29,
+        name: '4820i Industrial Scanner',
+        imageUrl: '../assets/Barcode-scanners/4820i-industrial-scanner.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 30,
+        name: '3820i Cordless Scanner',
+        imageUrl: '../assets/Barcode-scanners/3820i-cordless-scanner.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 31,
+        name: '1900gSR Xenon',
+        imageUrl: '../assets/Barcode-scanners/1900gSR-Xenon.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 32,
+        name: '3800gHD Linear Imager',
+        imageUrl: '../assets/Barcode-scanners/3800g-hd.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 33,
+        name: '3200 Area Imager',
+        imageUrl: '../assets/Barcode-scanners/3200-area-imager.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 34,
+        name: '4600r Retail Scanner',
+        imageUrl: '../assets/Barcode-scanners/4600r.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 35,
+        name: 'Granit XP 1991i',
+        imageUrl: '../assets/Barcode-scanners/Granit-XP-1991i.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 36,
+        name: 'Voyager 1400g',
+        imageUrl: '../assets/Barcode-scanners/Voyager-1400g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 37,
+        name: '1902gSR Wireless Scanner',
+        imageUrl: '../assets/Barcode-scanners/1902gSR-Wireless-Scanner.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 38,
+        name: '3800gPDF',
+        imageUrl: '../assets/Barcode-scanners/3800gPDF.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 42,
+        name: '1902g Wireless Scanner',
+        imageUrl: '../assets/Barcode-scanners/1902g-Wireless-Scanner.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 45,
+        name: 'Thor VM3',
+        imageUrl: '../assets/Barcode-scanners/Thor-VM3.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 46,
+        name: 'Xenon 1902h',
+        imageUrl: '../assets/Barcode-scanners/Xenon-1902h.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 47,
+        name: 'Orbit 7190g',
+        imageUrl: '../assets/Barcode-scanners/orbit-7190g.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 48,
+        name: 'Voyager 1602g',
+        imageUrl: '../assets/Barcode-scanners/Voyager-1602g.jpg',
+        brand: ['Honeywell'],
+      },
+
+      {
+        id: 50,
+        name: 'Genesis 7580g',
+        imageUrl: '../assets/Barcode-scanners/genesis-7580g-hands-free-scanner.jfif',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 51,
+        name: 'NLS-HR32',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR32.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 53,
+        name: 'NLS-HR52 Bonito',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR52 Bonito.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 54,
+        name: 'NLS-HR42 Halibut',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR42 Halibut.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 55,
+        name: 'NLS-HR22 Dorado',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR22 Dorado.jpg',
+        brand: ['Newland'],
+      },
+
+
+      {
+        id: 59,
+        name: 'NLS-Piranha',
+        imageUrl: '../assets/Barcode-scanners/NLS-Piranha.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 60,
+        name: 'NLS-HR55 Dolphin',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR55 Dolphin.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 61,
+        name: 'NLS-EM27 Series',
+        imageUrl: '../assets/Barcode-scanners/NLS-EM27 Series.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 62,
+        name: 'NLS-HR32BT',
+        imageUrl: '../assets/Barcode-scanners/NLS-HR32BT.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 64,
+        name: 'newland-fr27',
+        imageUrl: '../assets/Barcode-scanners/newland-fr27.jpg',
+        brand: ['Newland'],
+      },
+
+      {
+        id: 66,
+        name: 'newland-em20',
+        imageUrl: '../assets/Barcode-scanners/newland-em20.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 67,
+        name: 'newland-fm430',
+        imageUrl: '../assets/Barcode-scanners/newland-fm430.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 68,
+        name: 'newland-hr58',
+        imageUrl: '../assets/Barcode-scanners/newland-hr58.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 69,
+        name: 'newland-fr42',
+        imageUrl: '../assets/Barcode-scanners/newland-fr42.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 70,
+        name: 'newland-hr52-bonito-cordless',
+        imageUrl: '../assets/Barcode-scanners/newland-hr52-bonito-cordless.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 71,
+        name: 'newland-fm420',
+        imageUrl: '../assets/Barcode-scanners/newland-fm420.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 72,
+        name: 'newland-hr22p',
+        imageUrl: '../assets/Barcode-scanners/newland-hr22p.jfif',
+        brand: ['Newland'],
+      },
+
+
+ 
+
+      {
+        id: 77,
+        name: 'newland-fr21',
+        imageUrl: '../assets/Barcode-scanners/newland-fr21.jfif',
+        brand: ['Newland'],
+      },
+    ],
+    'mobile-computers': [
+      {
+        id: 1,
+        name: 'Captuvo SL22',
+        imageUrl: '../assets/Barcode-scanners/Captuvo-SL22.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 2,
+        name: 'Captuvo SL42',
+        imageUrl: '../assets/Barcode-scanners/Captuvo-SL42.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 3,
+        name: 'Captuvo SL62',
+        imageUrl: '../assets/Barcode-scanners/Captuvo-SL62.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 4,
+        name: 'Dolphin 75e',
+        imageUrl: '../assets/Barcode-scanners/Dolphin-75e.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 5,
+        name: 'Thor VM2',
+        imageUrl: '../assets/Barcode-scanners/Thor-VM2.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 6,
+        name: 'NLS-MT90 Orca',
+        imageUrl: '../assets/Barcode-scanners/NLS-MT90 Orca.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 7,
+        name: 'NLS-MT65 Beluga',
+        imageUrl: '../assets/Barcode-scanners/NLS-MT65 Beluga.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 8,
+        name: 'NLS-Nquire 800',
+        imageUrl: '../assets/Barcode-scanners/NLS-Nquire 800.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 9,
+        name: 'Dolphin CT60',
+        imageUrl: '../assets/Barcode-scanners/dolphin-ct60.webp',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 10,
+        name: 'NLS-Nquire 750',
+        imageUrl: '../assets/Barcode-scanners/NLS-Nquire 750.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 11,
+        name: 'newland-mt37-mini',
+        imageUrl: '../assets/Barcode-scanners/newland-mt37-mini.jfif',
+        brand: ['Newland'],
+      },
+      {
+        id: 12,
+        name: 'newland-mt90-mini',
+        imageUrl: '../assets/Barcode-scanners/newland-mt90-mini.jfif',
+        brand: ['Newland'],
+      },
+      {
+        id: 13,
+        name: 'newland-mt65-mini',
+        imageUrl: '../assets/Barcode-scanners/newland-mt65-mini.png',
+        brand: ['Newland'],
+      },
+      {
+        id: 14,
+        name: 'newland-nquire-350',
+        imageUrl: '../assets/Barcode-scanners/newland-nquire-350.jfif',
+        brand: ['Newland'],
+      },
+      {
+        id: 15,
+        name: 'newland-mt37',
+        imageUrl: '../assets/Barcode-scanners/newland-mt37.jpg',
+        brand: ['Newland'],
+      },
+      {
+        id: 16,
+        name: 'Dolphin CN80',
+        imageUrl: '../assets/Barcode-scanners/Dolphin CN80.jpg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 17,
+        name: 'NLS-Nquire 1000',
+        imageUrl: '../assets/Barcode-scanners/NLS-Nquire 1000.jpg',
+        brand: ['Newland'],
+      },
+
+    ],
+    'rfid-readers': [
+      {
+        id: 1,
+        name: '8690i Wearable RFID Mini Mobile Computer',
+        imageUrl: '../assets/rfid/8690i-wearable-rfid-mini.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 2,
+        name: "C5 UHF RFID Reader 5'' Display (Android 11)",
+        imageUrl: '../assets/rfid/c5-uhf.webp',
+        brand: ['Chainway'],
+      },
+      {
+        id: 3,
+        name: 'C61 UHF RFID Reader (Android 11)',
+        imageUrl: '../assets/rfid/c61-uhf.jpeg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 4,
+        name: 'C66 Built-in RFID Reader (Android 11)',
+        imageUrl: '../assets/rfid/c66-built-in-uhf.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 5,
+        name: 'C66 UHF RFID Reader (Android 11)',
+        imageUrl: '../assets/rfid/c66-uhf.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 6,
+        name: 'C71 Built-in RFID Reader (Android 11)',
+        imageUrl: '../assets/rfid/c71-built-in-uhf.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 7,
+        name: 'C72 UHF RFID Reader (Android 11)',
+        imageUrl: '../assets/rfid/c72-uhf.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 8,
+        name: 'IF2B Fixed RFID Reader',
+        imageUrl: '../assets/rfid/if2b-fixed.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 9,
+        name: 'IH21 Handheld UHF RFID Reader',
+        imageUrl: '../assets/rfid/ih21-handheld.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 10,
+        name: 'IH25 RFID Handheld Reader',
+        imageUrl: '../assets/rfid/ih25-handheld.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 11,
+        name: 'IH45 RFID Handheld Reader',
+        imageUrl: '../assets/rfid/ih45-handheld.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 12,
+        name: 'IP2L RFID Handheld Reader',
+        imageUrl: '../assets/rfid/ip2L-handheld.svg',
+        brand: ['Honeywell'],
+      },
+      {
+        id: 13,
+        name: 'MR20 Wearable RFID Reader',
+        imageUrl: '../assets/rfid/mr20.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 14,
+        name: 'MT90 RFID Mobile Terminal',
+        imageUrl: '../assets/rfid/mt90.svg',
+        brand: ['Newland'],
+      },
+      {
+        id: 15,
+        name: 'R2 Bluetooth RFID Reader',
+        imageUrl: '../assets/rfid/r2-bluetooth.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 16,
+        name: 'R3 Desktop RFID Reader',
+        imageUrl: '../assets/rfid/r3-desktop.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 17,
+        name: 'R5 Wearable RFID Reader',
+        imageUrl: '../assets/rfid/r5-wearable.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 18,
+        name: 'R6 UHF RFID Sled Reader',
+        imageUrl: '../assets/rfid/r6-uhf.svg',
+        brand: ['Chainway'],
+      },
+      {
+        id: 19,
+        name: 'SR160 UHF RFID Scanner',
+        imageUrl: '../assets/rfid/sr160-uhf.svg',
+        brand: ['Chainway'],
+      },
+    ],
+  },
+  'av-accessories': {
+    'projectors': [
+      { id: 1, name: 'BrightLink 760Wi', imageUrl: '../assets/Projectors/BrightLink_760Wi.jpg', brand: ['EPSON'] },
+      { id: 2, name: 'BrightLink 770Fi', imageUrl: '../assets/Projectors/brightlink-770fi.webp', brand: ['EPSON'] },
+      { id: 3, name: 'BrightLink 1485Fi', imageUrl: '../assets/Projectors/brightlink-1485fi.jpg', brand: ['EPSON'] },
+      { id: 4, name: 'BrightLink 695Wi', imageUrl: '../assets/Projectors/brightlink-695wi.jfif', brand: ['EPSON'] },
+      { id: 5, name: 'BrightLink 1480Fi', imageUrl: './assets/Projectors/brightlink-1480Fi.jpg', brand: ['EPSON'] },
+      { id: 6, name: 'PowerLite 725W', imageUrl: './assets/Projectors/PowerLite-725W.jfif', brand: ['EPSON'] },
+      { id: 7, name: 'PowerLite 810E', imageUrl: './assets/Projectors/PowerLite_810E.jpg', brand: ['EPSON'] },
+      { id: 8, name: 'PowerLite L610U', imageUrl: './assets/Projectors/powerlite-l610u.jfif', brand: ['EPSON'] },
+      { id: 9, name: 'PowerLite L520W', imageUrl: './assets/Projectors/powerlite-l520w.jpg', brand: ['EPSON'] },
+      { id: 10, name: 'PowerLite 1288', imageUrl: './assets/Projectors/powerlite-1288.jpg', brand: ['EPSON'] },
+      { id: 11, name: 'PowerLite L630U', imageUrl: './assets/Projectors/powerlite-l630u.jpg', brand: ['EPSON'] },
+      { id: 12, name: 'PowerLite L730U', imageUrl: './assets/Projectors/powerlite-l730u.jfif', brand: ['EPSON'] },
+      { id: 13, name: 'PowerLite L735U', imageUrl: './assets/Projectors/powerlite-l735u.jfif', brand: ['EPSON'] },
+      { id: 14, name: 'PowerLite L750U', imageUrl: './assets/Projectors/powerlite-l750u.png', brand: ['EPSON'] },
+      { id: 15, name: 'PowerLite 982W', imageUrl: './assets/Projectors/powerlite-982w.jpg', brand: ['EPSON'] },
+      { id: 16, name: 'PowerLite X49', imageUrl: './assets/Projectors/powerlite-x49.jpg', brand: ['EPSON'] },
+      { id: 17, name: 'PowerLite 118', imageUrl: './assets/Projectors/powerlite-118.jpg', brand: ['EPSON'] },
+      { id: 18, name: 'PowerLite 119W', imageUrl: './assets/Projectors/powerlite-119w.jfif', brand: ['EPSON'] },
+      { id: 19, name: 'PowerLite 109W', imageUrl: './assets/Projectors/powerlite-109w.jpg', brand: ['EPSON'] },
+      { id: 20, name: 'PowerLite L615U', imageUrl: './assets/Projectors/powerlite-l615u.jfif', brand: ['EPSON'] },
+      { id: 21, name: 'PowerLite L400U', imageUrl: './assets/Projectors/powerlite-l400u.jpg', brand: ['EPSON'] },
+      { id: 22, name: 'PowerLite L610W', imageUrl: './assets/Projectors/powerlite-l610w.jpg', brand: ['EPSON'] },
+      { id: 23, name: 'PowerLite E20', imageUrl: './assets/Projectors/powerlite-e20.jpg', brand: ['EPSON'] },
+      { id: 24, name: 'BrightLink 880', imageUrl: './assets/Projectors/brightlink-880.jpg', brand: ['EPSON'] },
+      { id: 25, name: 'BrightLink 885Wi', imageUrl: './assets/Projectors/brightlink-885wi.jpg', brand: ['EPSON'] },
+      { id: 26, name: 'BrightLink 695Wi', imageUrl: './assets/Projectors/brightlink-695wi.jpg', brand: ['EPSON'] },
+      { id: 27, name: 'Epson EB-695Wi', imageUrl: './assets/Projectors/eb-695wi.jfif', brand: ['EPSON'] },
+
+
+      { id: 28, name: 'LG PF50KA', imageUrl: './assets/Projectors/lg-pf50ka.jpg', brand: ['LG'] },
+      { id: 29, name: 'LG HU80KA', imageUrl: './assets/Projectors/lg-hu80ka.jpg', brand: ['LG'] },
+      { id: 30, name: 'LG HU85LA', imageUrl: './assets/Projectors/lg-hu85la.jpg', brand: ['LG'] },
+      { id: 31, name: 'LG PF1000U', imageUrl: './assets/Projectors/lg-pf1000u.jfif', brand: ['LG'] },
+      { id: 32, name: 'LG HU70LA', imageUrl: './assets/Projectors/lg-hu70la.avif', brand: ['LG'] },
+
+      { id: 33, name: 'Samsung The Freestyle', imageUrl: './assets/Projectors/samsung-freestyle.jpg', brand: ['Samsung'] },
+      { id: 34, name: 'Samsung LSP9T', imageUrl: './assets/Projectors/samsung-lsp9t.jpg', brand: ['Samsung'] },
+      { id: 35, name: 'Samsung The Premiere LSP7T', imageUrl: './assets/Projectors/samsung-premiere-lsp7t.jpg', brand: ['Samsung'] },
+      { id: 36, name: 'Samsung SP-LSP3', imageUrl: './assets/Projectors/samsung-splsp3.jpg', brand: ['Samsung'] },
+      { id: 37, name: 'Samsung HDC-PTZ', imageUrl: './assets/Projectors/samsung-hdc-ptz.jpg', brand: ['Samsung'] },
+
+      { id: 38, name: 'BenQ TK850i', imageUrl: './assets/Projectors/benq-tk850i.jpg', brand: ['BenQ'] },
+      { id: 39, name: 'BenQ HT3550', imageUrl: './assets/Projectors/benq-ht3550.jfif', brand: ['BenQ'] },
+      { id: 40, name: 'BenQ W2700', imageUrl: './assets/Projectors/benq-w2700.jpg', brand: ['BenQ'] },
+      { id: 41, name: 'BenQ GS2', imageUrl: './assets/Projectors/benq-gs2.jfif', brand: ['BenQ'] },
+      { id: 42, name: 'BenQ GS1', imageUrl: './assets/Projectors/benq-gs1.webp', brand: ['BenQ'] },
+
+      { id: 43, name: 'Panasonic PT-RZ120', imageUrl: './assets/Projectors/panasonic-ptrz120.jpg', brand: ['Panasonic'] },
+      { id: 44, name: 'Panasonic PT-VZ580', imageUrl: './assets/Projectors/panasonic-ptvz580.jpg', brand: ['Panasonic'] },
+      { id: 45, name: 'Panasonic PT-MZ570', imageUrl: './assets/Projectors/panasonic-ptmz570.jfif', brand: ['Panasonic'] },
+      { id: 46, name: 'Panasonic PT-LB426', imageUrl: './assets/Projectors/panasonic-ptlb426.jpg', brand: ['Panasonic'] },
+      { id: 47, name: 'Panasonic PT-EX620', imageUrl: './assets/Projectors/panasonic-ptex620.jpg', brand: ['Panasonic'] },
+
+      { id: 48, name: 'Zebra (Display Solution)', imageUrl: './assets/Projectors/SE58.jpg', brand: ['Zebra'] }
+    ],
+
+    'webcamsAndConferenceCameras': [
+      { id: 1, name: 'Webcam wc 103', imageUrl: './assets/webcams/tvs-1080p-webcam.jpg', brand: ['TVS'] },
+      { id: 2, name: 'Webcam wc 103 plus', imageUrl: './assets/webcams/wc-103-plus.webp', brand: ['TVS'] },
+      { id: 3, name: 'Webcam wc 105', imageUrl: './assets/webcams/webcam105-Photoroom.png', brand: ['TVS'] },
+      { id: 4, name: 'Honeywell 4K Meeting Camera', imageUrl: './assets/webcams/honeywell-4k-camera.jpg', brand: ['Honeywell'] },
+      { id: 5, name: 'Fisheye camera', imageUrl: './assets/webcams/Fisheyecamera.webp', brand: ['Honeywell'] },
+      { id: 6, name: 'Thermal Cameras', imageUrl: './assets/webcams/honeywell-hti-series-thermal-camera.jpg', brand: ['Honeywell'] },
+      { id: 7, name: 'PTZ Cameras', imageUrl: './assets/webcams/PTZ.webp', brand: ['Honeywell'] },
+      { id: 8, name: 'Ball Cameras', imageUrl: './assets/webcams/ball.jfif', brand: ['Honeywell'] },
+      { id: 9, name: 'Bullet Cameras', imageUrl: './assets/webcams/bulletcamera.webp', brand: ['Honeywell'] },
+      { id: 10, name: 'MicroDome Cameras', imageUrl: './assets/webcams/microdome.webp', brand: ['Honeywell'] },
+      { id: 11, name: 'Dome Cameras', imageUrl: './assets/webcams/dome.webp', brand: ['Honeywell'] },
+      { id: 12, name: 'Accessories', imageUrl: './assets/webcams/thermal-cameras.jfif', brand: ['Honeywell'] },
+
+      { id: 13, name: 'LG Crystal Clear Webcam', imageUrl: './assets/webcams/lg-crystal-clear-webcam.jpg', brand: ['LG'] },
+      { id: 14, name: 'Samsung SmartCam 4K', imageUrl: './assets/webcams/samsung-smartcam-4k.webp', brand: ['Samsung'] },
+      { id: 15, name: 'BenQ VC Cam Pro', imageUrl: './assets/webcams/benq-vc-cam-pro.webp', brand: ['BenQ'] },
+      { id: 16, name: 'Panasonic Conference Cam HD', imageUrl: './assets/webcams/panasonic-conference-cam-hd.jpg', brand: ['Panasonic'] },
+      { id: 17, name: 'Zebra HD VC Camera', imageUrl: './assets/webcams/zebra-hd-vc-camera.jpg', brand: ['Zebra'] }
+    ],
+
+    'microphone': [
+      { id: 1, name: 'TVS OmniMic 500', imageUrl: './assets/microphones/tvs-omnimic-500.jfif', brand: ['TVS'] },
+      { id: 2, name: 'Honeywell SpeakEasy Pro', imageUrl: './assets/microphones/honeywell-speakeasy-pro.jpg', brand: ['Honeywell'] },
+      { id: 3, name: 'MP-60', imageUrl: './assets/microphones/epson-microphone.jpg', brand: ['Epson'] },
+      { id: 4, name: 'LG SmartMic System', imageUrl: './assets/microphones/lg-smartmic-system.jpg', brand: ['LG'] },
+      { id: 5, name: 'Samsung Audio Conferencing Kit', imageUrl: './assets/microphones/samsung-audio-kit.avif', brand: ['Samsung'] },
+      { id: 6, name: 'BenQ Conference Mic Pro', imageUrl: './assets/microphones/benq-conference-mic-pro.webp', brand: ['BenQ'] },
+      { id: 7, name: 'Panasonic Meeting Audio Kit', imageUrl: './assets/microphones/panasonic-meeting-audio.jpg', brand: ['Panasonic'] },
+      { id: 8, name: 'Zebra CrystalClear Audio', imageUrl: './assets/microphones/zebra-crystalclear-audio.jpg', brand: ['Zebra'] }
+    ],
+
+    'avCables': [
+      { id: 1, name: "Display Port to Display Port 2.1 Cable- 2 Meter", imageUrl: "./assets/avcabels/display-port-to-display-port-2-1-cable-2-meter.jfif", brand: ["Honeywell"] },
+      { id: 2, name: "Display Port to Display Port – 2.0 Cable", imageUrl: "./assets/avcabels/display-port-to-display-port-2-0-cable.jfif", brand: ["Honeywell"] },
+      { id: 3, name: "Type C to HDMI Cable", imageUrl: "./assets/avcabels/type-c-to-hdmi-cable.jpg", brand: ["Honeywell"] },
+      { id: 4, name: "HDMI 1Mtr with Ethernet – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-1mtr-with-ethernet-2-1-compliant.jpg", brand: ["Honeywell"] },
+      { id: 5, name: "HDMI 2Mtr with Ethernet – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-2mtr-with-ethernet-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 6, name: "HDMI 3Mtr with Ethernet – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-3mtr-with-ethernet-2-1-compliant.jpg", brand: ["Honeywell"] },
+      { id: 7, name: "HDMI 5Mtr with Ethernet – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-5mtr-with-ethernet-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 8, name: "HDMI 1 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-1-mtr-with-ethernet-2-0-compliant-slim.jfif", brand: ["Honeywell"] },
+      { id: 9, name: "HDMI 2 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet-2-0-compliant-slim.jpg", brand: ["Honeywell"] },
+      { id: 10, name: "HDMI 3 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-3-mtr-with-ethernet-2-0-compliant-slim.jpg", brand: ["Honeywell"] },
+      { id: 11, name: "HDMI 5 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-5-mtr-with-ethernet-2-0-compliant-slim.webp", brand: ["Honeywell"] },
+      { id: 12, name: "HDMI 10 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-10-mtr-with-ethernet-2-0-compliant-slim.webp", brand: ["Honeywell"] },
+      { id: 13, name: "HDMI 15 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-15-mtr-with-ethernet-2-0-compliant-slim.webp", brand: ["Honeywell"] },
+      { id: 14, name: "HDMI 20 Mtr with Ethernet – 2.0 Compliant Slim", imageUrl: "./assets/avcabels/hdmi-20-mtr-with-ethernet-2-0-compliant-slim.jfif", brand: ["Honeywell"] },
+      { id: 15, name: "HDMI 2 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+      { id: 16, name: "HDMI 3 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+      { id: 17, name: "HDMI 5 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+      { id: 18, name: "HDMI 10 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+      { id: 19, name: "HDMI 15 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+      { id: 20, name: "HDMI 30 Mtr AOC – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-30-mtr-aoc-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 21, name: "HDMI 50 Mtr AOC – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-30-mtr-aoc-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 22, name: "HDMI 20 Mtr AOC – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-30-mtr-aoc-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 23, name: "HDMI 10 Mtr AOC – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-30-mtr-aoc-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 24, name: "HDMI 15 Mtr AOC – 2.1 Compliant", imageUrl: "./assets/avcabels/hdmi-30-mtr-aoc-2-1-compliant.jfif", brand: ["Honeywell"] },
+      { id: 25, name: "HDMI 20 Mtr with Ethernet", imageUrl: "./assets/avcabels/hdmi-2-mtr-with-ethernet.jpg", brand: ["Honeywell"] },
+
+
+      { id: 26, name: 'RGB Component Cable', imageUrl: './assets/avcabels/lg-hdmi-cable-premium.avif', brand: ['LG'] },
+      { id: 27, name: 'RCA/AV Cable', imageUrl: './assets/avcabels/lg-vga-cable-highspeed.avif', brand: ['LG'] },
+
+      { id: 28, name: 'Cable (Type-C)', imageUrl: './assets/avcabels/typec.avif', brand: ['Samsung'] },
+      { id: 29, name: 'C to C', imageUrl: './assets/avcabels/c-c.avif', brand: ['Samsung'] },
+
+
+      { id: 30, name: 'BenQ HDMI Cable HighSpeed', imageUrl: './assets/avcabels/benq-hdmi-cable-highspeed.webp', brand: ['BenQ'] },
+      { id: 31, name: 'BenQ VGA Cable Pro', imageUrl: './assets/avcabels/benq-vga-cable-pro.webp', brand: ['BenQ'] },
+      { id: 32, name: 'BenQ DisplayPort Cable Ultra', imageUrl: './assets/avcabels/benq-displayport-cable-ultra.jpg', brand: ['BenQ'] },
+
+      { id: 33, name: 'Panasonic HDMI Cable Pro', imageUrl: './assets/avcabels/panasonic-hdmi-cable-pro.jpg', brand: ['Panasonic'] },
+      { id: 34, name: 'Panasonic VGA Cable Premium', imageUrl: './assets/avcabels/panasonic-vga-cable-premium.jpg', brand: ['Panasonic'] },
+      { id: 35, name: 'Panasonic DisplayPort Cable Advanced', imageUrl: './assets/avcabels/panasonic-displayport-cable-advanced.jpg', brand: ['Panasonic'] },
+    ]
+  }
+};

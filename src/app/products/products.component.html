@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <title>Our Products</title>
+</head>
+
+<body class="background-image">
+    <header class="header">
+        <h1 class="title">Our Products</h1>
+        <p class="subtitle">Explore our wide range of cutting-edge technology products!</p>
+    </header>
+    <main class="product-grid-container">
+        <div 
+            class="product-card" 
+            *ngFor="let product of products" 
+            [routerLink]="['/product-details', product.id]">
+            <img [src]="product.imageUrl" [alt]="product.name" class="product-image">
+            <h2>{{ product.name }}</h2>
+            <p>{{ product.description }}</p>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-4 mb-4">
+              <h5 class="font-weight-bold">Clover Technologies</h5>
+              <p>
+                At Clover Technologies, we specialize in delivering innovative hardware, components, and software solutions that transform businesses and empower progress.
+              </p>
+            </div>
+
+            <div class="col-md-2 mb-4">
+              <h5 class="font-weight-bold">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Home</a></li>
+                <li><a href="#" class="text-white">About Us</a></li>
+                <li><a href="#" class="text-white">Products</a></li>
+                <li><a href="#" class="text-white">Contact Us</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase font-weight-bold">Contact</h5>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> 235, Binnamangala, 2nd Floor, 13th Cross Road, 2nd· .Stage, Indira Nagar, Bengaluru - 560038
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> +91 7406633447
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i> info@clovertechnologies.co.in
+                </p>
+            </div>
+
+            <div class="col-md-3 mb-4 text-center text-md-left">
+              <h5 class="font-weight-bold">Follow Us</h5>
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html> -->

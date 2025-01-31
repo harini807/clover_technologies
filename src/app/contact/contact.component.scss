@@ -1,0 +1,83 @@
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.contact-section h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.contact-section a {
+  transition: color 0.3s ease;
+}
+.img-fluid{
+  border-radius: 50%;
+}
+
+.btn-primary{
+  background-color: green;
+  border-color: green !important;
+}
+
+.btn-primary:hover{
+  background-color: green;
+  border-color: green !important;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #00aaff; 
+  text-decoration: underline;
+}
+
+footer .fa-lg {
+  transition: color 0.3s ease;
+}
+
+footer .fa-lg:hover {
+  color: #00aaff;
+}
+
+
+.container img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.container ul {
+  /* list-style-type: disc;
+  margin-left: 20px; */
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+

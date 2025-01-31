@@ -1,0 +1,43 @@
+<!-- <html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image">
+        <div class="container mb-5 bg-dark rounded shadow">
+          <div class="row">
+            <div class="img-row col-12 col-md-6">
+              <img [src]="product?.imageUrl" class="img-fluid rounded shadow" alt="Product Image">
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="p-4">
+                <h2 class="text-primary">{{ product?.name }}</h2>
+                <p class="text-muted">{{ product?.description }}</p>
+                <h5 class="mt-4">Specifications</h5>
+                <ul class="list-unstyled">
+                  <li *ngFor="let spec of product?.specifications" class="mb-2">
+                    <i class="bi bi-check-circle"> {{ spec }} </i> 
+                  </li>
+                </ul>
+                <h5 class="mt-4">Available Brands</h5>
+                <div class=" pt-0">
+                    <i class="text-muted bi">
+                        {{ product?.brands?.join(', ') }}
+                    </i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+            <button [routerLink]="['/products']" class="btn btn-primary custom-btn">Back to Products</button>
+        </div>
+      </div>
+    
+</body>
+</html> -->

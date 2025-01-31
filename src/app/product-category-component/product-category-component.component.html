@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clover Technologies</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  
+
+  <div class="layout">
+    <div class="left-container">
+      <!-- Desktop Filter Section -->
+      <div class="desktop-filter" *ngIf="!isMobileView">
+        <div class="filter-section">
+          <h5>Brand</h5>
+          <div *ngFor="let brand of brands" class="brand-filter-item">
+            <input type="checkbox" [id]="brand" (change)="toggleBrand(brand)" />
+            <label [for]="brand" class="brand">{{ brand }}</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Filter Section -->
+      <button class="filter-toggle-btn" *ngIf="isMobileView" (click)="toggleFilter()">
+        <i class="fas fa-sliders-h filter-icon "></i> 
+        <span class="filter-name">Filter</span>
+      </button>
+      <div class="filter-navbar" *ngIf="isMobileView" [class.active]="isFilterVisible">
+        <div class="filter-section">
+          <h5>Brand</h5>
+          <div *ngFor="let brand of brands" class="brand-filter-item">
+            <input type="checkbox" [id]="brand" (change)="toggleBrand(brand)" />
+            <label [for]="brand">{{ brand }}</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+      <header class="header">
+        <h1 style="text-transform: uppercase;" class="subcategoryId"> {{subcategoryId }} </h1>
+        <p class="subtitle">Explore our wide range of cutting-edge technology products!</p>
+        
+      </header>
+      <main class="product-grid-container" *ngIf="filteredProducts.length > 0; else noProducts">
+        <div class="product-card" *ngFor="let product of filteredProducts">
+          <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">
+          <h2>{{ product.name }}</h2>
+          <p>{{ product.brand.join(', ') }}</p>
+        </div>
+      </main>
+      <ng-template #noProducts>
+        <p>No products available.</p>
+      </ng-template>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
